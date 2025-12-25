@@ -1,12 +1,55 @@
-# React + Vite
+# Todo List App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Todo List application** built using **React** and **Context API**.  
+This project helps users manage daily tasks by adding, editing, completing, and deleting todos.
 
-Currently, two official plugins are available:
+This is my **first React mini project**, created to understand component structure, state management, and Context API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Add new todo items
+- Mark todos as completed
+- Edit existing todos
+- Delete todos
+- Visual distinction for completed tasks
+- Clean and responsive UI
+
+---
+
+## Tech Stack
+
+- **React.js**
+- **React Hooks** (`useState`, `useContext`)
+- **Context API** for global state management
+- **Tailwind CSS** for styling
+
+---
+
+## Project Structure
+src/
+│
+├── components/
+│ ├── TodoForm.jsx
+│ ├── TodoItem.jsx
+│ └── index.js
+│
+├── context/
+│ └── Todocontext.js
+│
+├── App.jsx
+└── main.jsx
+
+
+---
+
+## Concepts Used
+
+- Functional Components
+- Props
+- State management with `useState`
+- Global state using **React Context API**
+- Controlled inputs
+- Conditional rendering
+- Event handling
